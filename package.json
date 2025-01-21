@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "keywords": ["backtest", "finance", "trading", "download historical candle data", "indicators", "multi value", "multi symbol"],
   "scripts": {
-    "start": "npx ts-node src/main.ts",
+    "start": "ts-node src/main.ts",
     "dev": "npx ts-node src/main.ts",
     "build": "tsc || true",
     "makejs": "tsc || true",
